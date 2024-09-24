@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: #282829;
+  padding: 20px 0;
+}
+nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+main {
+  text-align: center;
+  font-size: 88px;
+}
+.card {
+  width: 30%;
+  text-align: center;
+}
+.card h3 {
+  font-size: 28px;
+}
+.card p {
+  color: #999;
+}
+section {
+  margin: 50px;
+}
